@@ -1,0 +1,48 @@
+state_type 2
+phase_type 1
+metabolic_type 2
+selfcollision false
+action_type 0
+use_muscle true
+use_motionoptimization false
+use_contractilestate true
+use_adaptivesampling false
+use_timewarping true
+use_stepwarping false
+use_sym true
+use_displacement false
+use_stride 1.0 1.0
+use_phase 1.0 1.0
+use_imitation false
+use_locoprin true
+rot_diff_weight 1.0
+linear_acc_weight 1.0
+angular_acc_weight 0.0
+metabolic_weight 0.2
+constant_pd_parameter true
+con_hz 30
+sim_hz 480   
+skel_file /data/human_legacy_heavy_no_shoulder.xml
+muscle_file /data/muscle300.xml
+bvh_file /data/motion/walk.bvh true
+inference_per_sim 1
+action_scale 0.04
+phase_scale 0.001
+use_newphase false
+joint_param
+joint_end
+muscle_param
+muscle_end
+muscle_force_param
+muscle_force_end
+skel_length_param
+global 0.5 1.0
+Head 0.5 1.0
+Pelvis 0.5 1.0
+FemurR 0.5 1.0
+FemurL 0.5 1.0
+TibiaR 0.5 1.0
+TibiaL 0.5 1.0
+skel_length_end
+# simple_motion_file /data/SimpleMotionSet.txt /data/JointMap.txt
+skeleton_parameter_file /data/SkeletonParameter.xml
